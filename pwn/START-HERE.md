@@ -12,3 +12,5 @@ Satu sesi mandiri cukup membahas satu pertanyaan. Contoh catatan: “Saya memper
 Untuk latihan tanpa AI, tutup percakapan dan browser, bangun ulang dari sumber lokal, lalu jelaskan kembali dua pengamatan tanpa melihat jawaban. Simpan pertanyaan yang belum terjawab sebagai awal sesi berikutnya.
 
 [Jalur belajar dan ukuran kemajuan](LEARNING-PATH.md) · [Indeks PWN](README.md)
+
+Untuk menyiapkan alat sebelum koneksi ditutup, ikuti [setup Linux](environment/setup.md). Setelah memahami `jumlah`, lanjutkan ke [lab frame](labs/guided/frame/README.md), lalu coba [satu soal mandiri](labs/README.md) memakai [playbook 15 menit](playbook/first-15-minutes.md).

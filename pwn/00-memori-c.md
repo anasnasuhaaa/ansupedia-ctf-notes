@@ -2,6 +2,8 @@
 
 **Tujuan.** Prediksi ukuran objek, bedakan panjang string dari kapasitas array, dan tentukan kapan pointer masih sah dipakai. Bekal awalnya adalah kemampuan mengompilasi [contoh jumlah](README.md#siapkan-program-latihan).
 
+Pada target LP64 dalam buku ini, `char` memakai satu byte, `short` dua, `int` empat, sedangkan `long` dan pointer delapan. `size_t` adalah tipe unsigned untuk hasil `sizeof` dan ukuran objek. Untuk format data berlebar tetap gunakan tipe seperti `uint32_t` dari `<stdint.h>` bila tersedia. Perpindahan `p + 1` maju satu **elemen** sesuai tipe yang ditunjuk. Pada `int *` di target ini, selisih alamatnya empat byte.
+
 Simpan sebagai `objek.c` di direktori latihan. Program membuat salinan milik pemanggil. Argumen panjang mencakup terminator.
 
 ```c

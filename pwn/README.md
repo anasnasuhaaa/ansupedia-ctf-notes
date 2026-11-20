@@ -1,5 +1,7 @@
 # Dasar PWN di Linux x86-64
 
+[Mulai di sini](START-HERE.md) · [Labs](labs/README.md) · [Playbook 15 menit](playbook/first-15-minutes.md) · [Rujukan cepat](#rujukan-cepat-luring)
+
 Bagaimana pemanggilan `jumlah(7, 5)` di C terlihat di dalam berkas ELF? Di register mana kedua angka itu berada ketika fungsi mulai berjalan? Jalur ini memakai satu program kecil agar kamu bisa mencocokkan kode C, instruksi mesin, dan nilai yang terlihat di debugger.
 
 ## Siapkan program latihan

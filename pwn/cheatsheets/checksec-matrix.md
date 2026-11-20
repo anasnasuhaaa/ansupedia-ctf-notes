@@ -8,6 +8,7 @@ Di shell jalankan `pwn checksec ./objek-kuat` pada [build contoh](../07-proteksi
 | Canary found | `readelf -Ws objek-kuat` → stack_chk_fail; periksa disassembly fungsi | Fungsi mana yang benar-benar memeriksa penjaga? |
 | PIE enabled | `file objek-kuat`, `readelf -hW objek-kuat` | Apakah citra executable mendukung relokasi? |
 | Partial RELRO | GNU_RELRO pada header, tanpa permintaan NOW | Rentang mana menjadi hanya-baca setelah relokasi? |
+| No RELRO | Periksa apakah program header GNU_RELRO absen | Apakah ELF meminta perlindungan rentang ini? |
 | Full RELRO | GNU_RELRO serta NOW pada `readelf -dW objek-kuat` | Apakah resolusi segera diminta bersama proteksi rentang? |
 | ASLR | `cat /proc/sys/kernel/randomize_va_space`, pengaturan GDB dan peta runtime | Apa kebijakan host dan bukti dari proses yang diamati? |
 

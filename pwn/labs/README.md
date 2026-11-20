@@ -13,3 +13,5 @@ Setiap latihan memakai direktori kerjanya sendiri. Jalankan perintah pada halama
 ## Latihan mandiri
 
 Pilih [Senja](blind/senja/README.md) atau [Pagi](blind/pagi/README.md). Buka README soal dan jalankan `make` tanpa membuka folder `pembahasan`. Setiap folder pembahasan menyimpan jawaban, sumber, dan kasus uji. Catat prediksi sebelum menjalankan `make check`.
+
+Dari akar repo, `make -C pwn/labs check` membangun dan menguji kelima lab. Gunakan `make -BC pwn/labs check` untuk membangun ulang semuanya. Untuk menjaga soal mandiri tetap menjadi latihan tanpa bocoran, jalankan pemeriksaan menyeluruh setelah mengerjakan kedua soal: laporan tes menyebutkan nama kasus.
