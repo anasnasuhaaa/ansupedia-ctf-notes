@@ -34,5 +34,7 @@ Keluaran yang diharapkan adalah `hasil = 12`. Opsi `-g` menyertakan informasi un
 1. [ELF Linux x86-64](01-elf.md) — temukan bagian berkas yang berisi instruksi dan lihat cara Linux memetakannya ke memori.
 2. [Membaca assembly](02-assembly.md) — ikuti dua bilangan dari register hingga menjadi hasil penjumlahan.
 3. [Pemanggilan fungsi menurut System V AMD64](03-abi.md) — cocokkan argumen dan nilai balik C dengan register di batas pemanggilan.
+4. [Pemeriksaan awal biner](04-pemeriksaan-biner.md) — susun profil program dari header, simbol, pustaka, dan teks yang tersimpan.
+5. [Debugging dengan GDB dan pwndbg](05-debugging.md) — hentikan program saat fungsi dimasuki dan periksa hasil saat fungsi kembali.
 
 [Kembali ke indeks repositori](../README.md)

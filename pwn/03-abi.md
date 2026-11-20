@@ -28,4 +28,4 @@ Jika fungsi memakai `rbx`, `rbp`, atau `r12` sampai `r15`, fungsi wajib memulihk
 
 [Spesifikasi System V AMD64 dari proyek x86-64 psABI](https://gitlab.com/x86-psABIs/x86-64-ABI)
 
-[Indeks PWN](README.md)
+[Lanjut ke pemeriksaan awal biner](04-pemeriksaan-biner.md) · [Indeks PWN](README.md)
