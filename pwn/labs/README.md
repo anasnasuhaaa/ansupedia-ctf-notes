@@ -9,3 +9,7 @@ Setiap latihan memakai direktori kerjanya sendiri. Jalankan perintah pada halama
 | [Protokol](guided/protokol/README.md) | Empat balasan nyata dari empat proses lokal |
 
 [Indeks PWN](../README.md) · [Jalur belajar](../LEARNING-PATH.md)
+
+## Latihan mandiri
+
+Pilih [Senja](blind/senja/README.md) atau [Pagi](blind/pagi/README.md). Buka README soal dan jalankan `make` tanpa membuka folder `pembahasan`. Setiap folder pembahasan menyimpan jawaban, sumber, dan kasus uji. Catat prediksi sebelum menjalankan `make check`.

@@ -1,0 +1,59 @@
+[
+  {
+    "nama": "byte 0102",
+    "stdin_hex": "0102",
+    "status": 0,
+    "stdout": "513\n"
+  },
+  {
+    "nama": "byte 0201",
+    "stdin_hex": "0201",
+    "status": 0,
+    "stdout": "258\n"
+  },
+  {
+    "nama": "byte 0000",
+    "stdin_hex": "0000",
+    "status": 0,
+    "stdout": "0\n"
+  },
+  {
+    "nama": "byte ff00",
+    "stdin_hex": "ff00",
+    "status": 0,
+    "stdout": "255\n"
+  },
+  {
+    "nama": "byte 00ff",
+    "stdin_hex": "00ff",
+    "status": 0,
+    "stdout": "65280\n"
+  },
+  {
+    "nama": "byte ffff",
+    "stdin_hex": "ffff",
+    "status": 0,
+    "stdout": "65535\n"
+  },
+  {
+    "nama": "byte 01",
+    "stdin_hex": "01",
+    "status": 2,
+    "stdout": "",
+    "stderr": "perlu tepat dua byte\n"
+  },
+  {
+    "nama": "byte kosong",
+    "stdin_hex": "",
+    "status": 2,
+    "stdout": "",
+    "stderr": "perlu tepat dua byte\n"
+  },
+  {
+    "nama": "byte 010203",
+    "stdin_hex": "010203",
+    "status": 2,
+    "stdout": "",
+    "stderr": "perlu tepat dua byte\n"
+  }
+]

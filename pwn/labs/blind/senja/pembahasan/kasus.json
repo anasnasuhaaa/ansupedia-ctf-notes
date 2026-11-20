@@ -1,0 +1,59 @@
+[
+  {
+    "nama": "kosong",
+    "argv": [
+      ""
+    ],
+    "status": 0,
+    "stdout": "0\n"
+  },
+  {
+    "nama": "satu kelompok",
+    "argv": [
+      "aaa"
+    ],
+    "status": 0,
+    "stdout": "1\n"
+  },
+  {
+    "nama": "dua kelompok",
+    "argv": [
+      "a  b"
+    ],
+    "status": 0,
+    "stdout": "2\n"
+  },
+  {
+    "nama": "batas spasi dan tab",
+    "argv": [
+      "  a\tb  c  "
+    ],
+    "status": 0,
+    "stdout": "3\n"
+  },
+  {
+    "nama": "hanya pemisah",
+    "argv": [
+      " \t"
+    ],
+    "status": 0,
+    "stdout": "0\n"
+  },
+  {
+    "nama": "tanpa argumen",
+    "argv": [],
+    "status": 2,
+    "stdout": "",
+    "stderr": "perlu satu argumen\n"
+  },
+  {
+    "nama": "argumen berlebih",
+    "argv": [
+      "a",
+      "b"
+    ],
+    "status": 2,
+    "stdout": "",
+    "stderr": "perlu satu argumen\n"
+  }
+]
