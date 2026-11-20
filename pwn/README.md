@@ -46,3 +46,5 @@ Keluaran yang diharapkan adalah `hasil = 12`. Opsi `-g` menyertakan informasi un
 Jika baru belajar C, mulai dari [objek, pointer, dan masa hidup](00-memori-c.md) sebelum membaca ELF.
 
 [Interaksi Python/pwntools](templates/README.md) — bangun penghitung byte lokal dan cocokkan balasannya dengan input.
+
+Untuk meninjau program C, ikuti [kontrak memori](06-keamanan-memori.md), [proteksi runtime](07-proteksi.md), lalu [pengantar allocator dan batas proses](08-konsep-lanjut.md).
