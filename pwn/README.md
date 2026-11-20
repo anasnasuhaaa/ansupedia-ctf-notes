@@ -29,4 +29,10 @@ gcc -g -O0 -fno-omit-frame-pointer -o latihan latihan.c
 
 Keluaran yang diharapkan adalah `hasil = 12`. Opsi `-g` menyertakan informasi untuk debugger, `-O0` memudahkan pencocokan instruksi dengan baris C, dan `-fno-omit-frame-pointer` memudahkan pengamatan bingkai fungsi. Jalankan perintah pada tiap modul dari direktori latihan ini.
 
+## Urutan belajar
+
+1. [ELF Linux x86-64](01-elf.md) — temukan bagian berkas yang berisi instruksi dan lihat cara Linux memetakannya ke memori.
+2. [Membaca assembly](02-assembly.md) — ikuti dua bilangan dari register hingga menjadi hasil penjumlahan.
+3. [Pemanggilan fungsi menurut System V AMD64](03-abi.md) — cocokkan argumen dan nilai balik C dengan register di batas pemanggilan.
+
 [Kembali ke indeks repositori](../README.md)
