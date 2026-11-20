@@ -19,3 +19,5 @@ Contoh disimpan per topik di direktori `web-exploitation/`.
 - [2FA, Base64, dan zlib](web-exploitation/2fa/base64zlib.py)
 - [SQL injection dasar](web-exploitation/sql-injection/basic.sql)
 - [Server-side template injection (SSTI)](web-exploitation/ssti/payload.md)
+
+Untuk belajar PWN tanpa koneksi internet, ikuti [panduan mulai](pwn/START-HERE.md) dan [jalur belajar](pwn/LEARNING-PATH.md).

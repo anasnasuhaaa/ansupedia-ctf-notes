@@ -38,3 +38,7 @@ Keluaran yang diharapkan adalah `hasil = 12`. Opsi `-g` menyertakan informasi un
 5. [Debugging dengan GDB dan pwndbg](05-debugging.md) — hentikan program saat fungsi dimasuki dan periksa hasil saat fungsi kembali.
 
 [Kembali ke indeks repositori](../README.md)
+
+## Belajar mandiri
+
+[Mulai di sini](START-HERE.md) · [Jalur belajar](LEARNING-PATH.md) · [Status dan hasil verifikasi](IMPLEMENTATION-STATUS.md)
