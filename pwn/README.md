@@ -50,3 +50,14 @@ Jika baru belajar C, mulai dari [objek, pointer, dan masa hidup](00-memori-c.md)
 Untuk meninjau program C, ikuti [kontrak memori](06-keamanan-memori.md), [proteksi runtime](07-proteksi.md), lalu [pengantar allocator dan batas proses](08-konsep-lanjut.md).
 
 [Laboratorium lokal](labs/README.md) — soal, perintah build dan kriteria keberhasilan per latihan.
+
+## Rujukan cepat luring
+
+| Kebutuhan | Buka |
+| --- | --- |
+| Baru menerima biner latihan | [15 menit pertama](playbook/first-15-minutes.md) · [Perintah inspeksi](cheatsheets/commands.md) |
+| Berhenti di fungsi atau membaca core | [Alur debugging](playbook/debugging-workflow.md) · [Diagnosis crash](playbook/crash-troubleshooting.md) · [pwndbg](cheatsheets/pwndbg.md) |
+| Mencari arti register atau metadata | [Register dan ABI](cheatsheets/registers-and-abi.md) · [Matriks checksec](cheatsheets/checksec-matrix.md) |
+| Menguji input/output | [Pwntools ringkas](cheatsheets/pwntools.md) · [Soal terpandu dan mandiri](labs/README.md) |
+| Bersiap untuk final | [Setup](environment/setup.md) · [Checklist luring](environment/offline-checklist.md) · [Alur kompetisi](playbook/competition-workflow.md) |
+| Mencari istilah dan bantuan alat | [Glosarium](references/glossary.md) · [Rujukan lokal](references/further-reading.md) |
