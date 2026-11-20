@@ -42,3 +42,5 @@ Keluaran yang diharapkan adalah `hasil = 12`. Opsi `-g` menyertakan informasi un
 ## Belajar mandiri
 
 [Mulai di sini](START-HERE.md) · [Jalur belajar](LEARNING-PATH.md) · [Status dan hasil verifikasi](IMPLEMENTATION-STATUS.md)
+
+Jika baru belajar C, mulai dari [objek, pointer, dan masa hidup](00-memori-c.md) sebelum membaca ELF.

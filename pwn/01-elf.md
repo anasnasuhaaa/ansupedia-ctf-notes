@@ -31,3 +31,23 @@ Perintah kedua menampilkan *program header*. Entri `LOAD` menjelaskan segmen yan
 [Rujukan perintah readelf dari GNU Binutils](https://sourceware.org/binutils/docs/binutils/readelf.html)
 
 [Lanjut ke assembly](02-assembly.md) · [Indeks PWN](README.md)
+
+## Mengikuti satu simbol ke pustaka
+
+Dengan biner latihan yang ditautkan dinamis, jalankan di shell:
+
+```sh
+readelf -lW latihan
+readelf -dW latihan
+readelf -Ws latihan
+readelf -rW latihan
+objdump -d -M intel --disassemble=main latihan
+```
+
+Pada `INTERP`, kernel memperoleh jalur *dynamic loader*. Loader memetakan pustaka yang diperlukan dan mengerjakan relokasi. Cari nama `printf` dengan indeks section `UND` dan cocokkan dengan tabel relokasi. Pada build yang memakai PLT, instruksi call menuju entri *Procedure Linkage Table*. Entri itu meneruskan panggilan lewat slot alamat di *Global Offset Table*. Resolusi dapat berlangsung ketika program dimuat atau saat panggilan pertama, tergantung konfigurasi. Sebagian build memanggil melalui GOT secara langsung atau memakai simbol lain karena optimasi.
+
+`-g` menambah informasi baris dan tipe untuk debugger. Simbol dinamis yang dibutuhkan loader dapat bertahan setelah informasi debug dibuang. Bandingkan `nm latihan` dengan `nm -D latihan`. Gunakan `readelf -dW` saat memeriksa dependensi langsung berkas asing. `ldd` dapat melibatkan loader dan pada keadaan tertentu menjalankan kode; batasi pemakaiannya pada program tepercaya. Pada mesin dengan patchelf, `patchelf --print-interpreter latihan` membaca jalur loader. Opsi pengubahnya mengedit ELF dan tidak diperlukan untuk observasi ini.
+
+Catat versi GCC, linker, arsitektur, sumber dan opsi setiap build. Opsi eksplisit memudahkan pengulangan eksperimen; versi alat, path debug dan konfigurasi distribusi juga memengaruhi byte hasil. Mengapa `UND printf` tetap wajar pada executable yang berhasil berjalan? Ikuti rujukannya dari call site ke loader.
+
+[Dasar objek dan penautan C](00-memori-c.md) · [Pemeriksaan biner](04-pemeriksaan-biner.md)
